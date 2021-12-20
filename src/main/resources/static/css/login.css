@@ -1,5 +1,9 @@
 body {
     background-image: url(../images/login.jpeg);
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    background-size:cover;
 }
 
 #login_main_div {
