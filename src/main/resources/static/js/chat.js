@@ -2,7 +2,7 @@ $(document).ready(function () {
     // 初始化用户列表
     initUserList();
 
-    let urlPrefix = 'ws://112.74.29.66/:8080/net/websocket/';
+    let urlPrefix = 'ws://localhost:8080/net/websocket/';
     let username = $('#user_name').text();
     let ws = initMsg(urlPrefix, username);
 
