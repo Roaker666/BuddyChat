@@ -38,7 +38,7 @@
 
 1、注册，运行服务器后默认进入登录页面，如果没有注册首次请点击注册按钮进入注册页面
 
-![](/Users/raolei/IdeaProjects/PaperChat/imgs/register.jpg)
+![](./imgs/register.jpg)
 
 2、登录，通过1注册后，输入用户名和密码，点击登录按钮，即可进入聊天界面；
 
