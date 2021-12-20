@@ -19,6 +19,8 @@
 
 ### 安装方式：
 
+### 示例：http://112.74.29.66:8080/
+
 #### 安装方式一：
 
 1、直接下载该[安装包](https://github.com/Roaker666/BuddyChat/blob/master/releases/BuddyChat-1.0.jar)，然后运行java -jar BuddyChat-1.0.jar 运行即可
