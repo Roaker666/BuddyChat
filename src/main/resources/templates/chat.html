@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.springframework.org/schema/mvc">
+<head>
+    <meta charset="UTF-8">
+    <title>伙伴系统聊天室</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/chat.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/chat.js"></script>
+</head>
+<body class="container" style="margin-left: 25%">
+<div id="chat_user_info_head" class="form-group">
+    <div id="chat_user_info_content">
+        <label id="chat_user_name_label" for="user_name">你好：</label>
+        <h5 id="user_name" th:text="${username}"></h5>
+    </div>
+</div>
+<div id="chat_user_message_div" class="form-group">
+    <div id="message_user" class="form-control" readonly="readonly">
+        成员：<span id="message_user_count"></span><br/>
+    </div>
+    <div id="message_chat" class="form-control" readonly="readonly">
+    </div>
+    <div id="chat_user_message_send_div">
+        <div id="chat_user_message_content_div">
+            <textarea id="chat_msg" value="" class="form-control"></textarea>
+        </div>
+        <div id="chat_user_message_btn_div">
+            <button style="float: right; margin-left: 10px;" id="user_exit" class="btn btn-warning">退出</button>
+            <button style="float: right; margin-left: 10px;" id="send_all" class="btn btn-info">群发消息</button>
+            <button style="float: right;" id="send" class="btn btn-info">发送消息</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
