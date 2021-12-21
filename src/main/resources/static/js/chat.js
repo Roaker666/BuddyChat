@@ -81,7 +81,7 @@ $(document).ready(function () {
             console.log("用户：[" + username + "]已关闭 websocket 连接...");
             ws.close();
         }
-        window.location.href = "/chat/login";
+        window.location.href = "/";
     });
 });
 
